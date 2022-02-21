@@ -6,6 +6,10 @@ This repos created for create the docker image and push into ACR.<br/>
   This file have basic coding install the curl in target system and copy the README file to home dir. </br>
 <b>Jenkinsfile:</b> </br>
   Jenkins file have the pipeline code to build and push the docker image into ACR using Jenkins. <br/>
+  1. jenkinstraining.azurecr.io - Name of the ACR
+  2. sample-docker-image-63497:$BUIL_NUMBER - Docker image name
+  3. $BUIL_NUMBER - env variable used for get the dynamic image version
+  4. DOCKER_CONFIG - docker config file
  <b>Steps: </b>
  <br>
  1. Create the Jenkins pipeline.
