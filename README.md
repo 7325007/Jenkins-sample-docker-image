@@ -10,6 +10,7 @@ This repos created for create the docker image and push into ACR.<br/>
   2. sample-docker-image-63497:$BUIL_NUMBER - Docker image name
   3. $BUIL_NUMBER - env variable used for get the dynamic image version
   4. DOCKER_CONFIG - docker config file
+ <br>
  <b>Steps: </b>
  <br>
  1. Create the Jenkins pipeline.
